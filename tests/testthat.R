@@ -1,2 +1,2 @@
 library("testthat")
-test_check("GemirTools")
+test_check("speciescarbonr")
