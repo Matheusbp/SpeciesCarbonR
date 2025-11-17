@@ -1,11 +1,10 @@
-Package: GemirTools
+Package: speciescarbonr
 Type: Package
-Title: GemirTools
+Title: SpeciesCarbonR
 Version: 0.1.0
 Author: Matheus B. Pamplona
 Maintainer: Matheus <matheusbpamplona@outlook.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: SpeciesCarbonR is an R package developed to facilitate the estimation of aboveground carbon (AGB - Above Ground Biomass) in plants and trees of different species, biomes and Brazilian ecosystems. The functions use allometric equations based on consolidated scientific research to convert simple dendrometric measurements (such as DAP - Diameter at Breast Height) into carbon sequestration estimates.
 License: GPL-2
 Suggests: testthat
 Encoding: UTF-8
