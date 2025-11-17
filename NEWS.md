@@ -1,6 +1,6 @@
-# GemirTools News
+# SpeciesCarbonR News
 
-## GemirTools 0.2 (Em desenvolvimento)
+## SpeciesCarbonR 1.0
 
 ### 🆕 Novas Funcionalidades
 
@@ -63,7 +63,7 @@
 
 ---
 
-## GemirTools 0.1
+## SpeciesCarbonR 1.0
 
 ### 🎯 Primeira Versão Lançada
 

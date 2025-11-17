@@ -1,10 +1,10 @@
-# GemirTools  <img src="man/figures/logo.png" align="right" alt="" width="250" />
+# SpeciesCarbonR  <img src="man/figures/logo.png" align="right" alt="" width="250" />
 
 > **Ferramentas úteis + Equações de Carbono para estimativa de biomassa em diferentes ecossistemas brasileiros**
 
 ## 📋 Visão Geral
 
-**GemirTools** é um pacote R desenvolvido para facilitara estimativa de **carbono acima do solo (AGB - Above Ground Biomass)** em plantas e árvores de diferentes espécies, biomas e ecossistemas brasileiros. As funções utilizam **equações alométricas** baseadas em pesquisas científicas consolidadas para converter medidas dendrométricas simples (como DAP - Diâmetro à Altura do Peito) em estimativas de carbono sequestrado.
+**SpeciesCarbonR** é um pacote R desenvolvido para facilitara estimativa de **carbono acima do solo (AGB - Above Ground Biomass)** em plantas e árvores de diferentes espécies, biomas e ecossistemas brasileiros. As funções utilizam **equações alométricas** baseadas em pesquisas científicas consolidadas para converter medidas dendrométricas simples (como DAP - Diâmetro à Altura do Peito) em estimativas de carbono sequestrado.
 
 ### ✨ Principais Características
 
@@ -20,7 +20,7 @@
 
 ```r
 library("devtools")
-install_github("Matheusbp/GemirTools")
+install_github("Matheusbp/SpeciesCarbonR")
 ```
 
 ---
@@ -170,7 +170,7 @@ anadenanthera_colubrina_vell_brenan_pantanal(dap, porc_C = 0.47)
 ### Exemplo 1: Calcular carbono em uma árvore de eucalipto
 
 ```r
-library(GemirTools)
+library(speciescarbonr)
 
 # Árvore com DAP = 30 cm e altura = 25 m
 carbono_eucalipto <- eucalipto_carbon(dap = 30, altura = 25, porc_C = 0.47)
