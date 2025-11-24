@@ -522,7 +522,7 @@ cupuacu_carbon <- function(diam_30cm,
 #' Floresta tropical úmida (geral) | Amazônia
 #'
 #' Compartimento: Acima (tronco+galhos+folhas) | R2: 0,95 | Syx: - | Peso: Seco
-#' DBH range (cm): - | Autor: Higuchi (1998)
+#' DBH range (cm): - | Autor: Higuchi (1998) atualizado
 #' referência: Higuchi. (1998). Biomassa da parte aérea da vegetação da floresta tropical Úmida de Terra-Firme da Amazônia Brasileira. Acta Amazonica, 28 (2), 153-166. http://www.scielo.br/pdf/aa/v28n2/1809-4392-aa-28-2-0153.pdf
 #'
 #' @param dap DAP da árvore [cm]
