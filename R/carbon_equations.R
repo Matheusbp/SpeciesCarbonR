@@ -532,7 +532,15 @@ cupuacu_carbon <- function(diam_30cm,
 #' @export
 general_carbon_higuchi <- function(dap, altura,
                              porc_C = 0.47) {
-  return(porc_C * ( -2.694 + 2.038 * log(dap) + 0.902 * log(altura)))
+  # coeficientes da equação 2 — Higuchi (1998)
+  beta0 <- -2.694
+  beta1 <-  2.038
+  beta2 <-  0.902
+
+  # Equação em log → transformar de volta
+  lnP <- beta0 + beta1 * log(dap) + beta2 * log(altura)
+  ps <- exp(lnP)   # peso seco em kg
+  return(porc_C * ps)
 }
 
 
